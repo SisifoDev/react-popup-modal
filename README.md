@@ -1,7 +1,6 @@
-# Getting Started with Create React App
+# 🚀 Responsive Popup Modal in React Js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+Project created in React Js and Styled components 
 ## Available Scripts
 
 In the project directory, you can run:
