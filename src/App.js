@@ -1,9 +1,14 @@
 import "./App.css";
 
 function App() {
+  const showModal = () => {
+    const modalContainer = document.getElementById("modal-container");
+    modalContainer.classList.add("show-modal");
+  };
+
   return (
     <section className="modal container">
-      <button className="modal__button" id="open-modal">
+      <button onClick={showModal} className="modal__button" id="open-modal">
         Open Modal
       </button>
 
@@ -13,7 +18,7 @@ function App() {
             <i className="bx bx-x"></i>
           </div>
 
-          <img src="assets/img/star-trophy.png" alt="" class="modal__img" />
+          <img src="img/star-trophy.png" alt="" class="modal__img" />
 
           <h1 className="modal__title">Good Job!</h1>
           <p className="modal__description">Click the button to close</p>
