@@ -6,6 +6,11 @@ function App() {
     modalContainer.classList.add("show-modal");
   };
 
+  const hideModal = () => {
+    const modalContainer = document.getElementById("modal-container");
+    modalContainer.classList.remove("show-modal");
+  };
+
   return (
     <section className="modal container">
       <button onClick={showModal} className="modal__button" id="open-modal">
@@ -27,7 +32,12 @@ function App() {
             View status
           </button>
 
-          <button className="modal__button-link close-modal">Close</button>
+          <button
+            onClick={hideModal}
+            className="modal__button-link close-modal"
+          >
+            Close
+          </button>
         </div>
       </div>
     </section>
