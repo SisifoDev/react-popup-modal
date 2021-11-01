@@ -19,14 +19,17 @@ function App() {
 
       <div className="modal__container" id="modal-container">
         <div className="modal__content">
-          <div className="modal__close close-modal" title="Close">
+          <div
+            onClick={hideModal}
+            className="modal__close close-modal"
+            title="Close"
+          >
             <img src="img/x.svg" alt="" clasName="close-icon" />
           </div>
 
-          <h1 className="modal__title">Good Job!</h1>
-          <img src="img/trophy.png" alt="" class="modal__img" />
-
+          <h1 className="modal__title">🎈 Good Job! 🎉</h1>
           <p className="modal__description">Click the button to close</p>
+          <img src="img/trophy.png" alt="" class="modal__img" />
 
           <button className="modal__button modal__button-width">
             View status
