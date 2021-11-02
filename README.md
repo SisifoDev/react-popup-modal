@@ -1,6 +1,7 @@
 # 🚀 Responsive Popup Modal in React Js
 
-Popup Modal component created in React Js and Styled components 
+Basic Modal Popup built in React js
+
 ## Available Scripts
 
 In the project directory, you can run:
