@@ -47,6 +47,14 @@ body {
   position: relative;
 }
 
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(207, 202, 202);
+}
+
 button {
   cursor: pointer;
   border: none;
@@ -65,7 +73,7 @@ img {
 }
 
 .modal {
-  height: 100vh;
+  height: calc(100vh - 100px);
   display: grid;
   place-items: center;
 }
