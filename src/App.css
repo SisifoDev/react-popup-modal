@@ -5,11 +5,11 @@
 :root {
   /*========== Colors ==========*/
   --hue: 240;
-  --first-color: hsl(var(--hue), 16%, 18%);
-  --first-color-alt: hsl(var(--hue), 16%, 12%);
-  --title-color: hsl(var(--hue), 8%, 15%);
+  --first-color: #29293f;
+  --first-color-alt: #2e2e48;
+  --title-color: #ff723a;
   --text-color: hsl(var(--hue), 8%, 35%);
-  --body-color: hsl(var(--hue), 100%, 99%);
+  --body-color: #454564;
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
@@ -130,7 +130,7 @@ img {
   display: inline-flex;
   background-color: white;
   border-radius: 0.25rem;
-  color: #fff;
+  color: var(--first-color);
   font-size: 1.5rem;
   position: absolute;
   top: 2rem;
@@ -138,6 +138,10 @@ img {
   cursor: pointer;
 }
 
+.modal__close:hover {
+  background-color: var(--text-color);
+  color: #fff;
+}
 .modal__title {
   font-size: var(--big-font-size);
   color: var(--title-color);
