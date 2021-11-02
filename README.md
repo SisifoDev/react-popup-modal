@@ -1,6 +1,7 @@
 # 🚀 Responsive Popup Modal in React Js
 
-Basic Modal Popup built in React js
+### Basic Modal Popup built in React js
+----
 
 ## Available Scripts
 

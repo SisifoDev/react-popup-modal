@@ -1,5 +1,7 @@
 import "./App.css";
 
+import { MdClear } from "react-icons/md";
+
 function App() {
   const showModal = () => {
     const modalContainer = document.getElementById("modal-container");
@@ -24,7 +26,8 @@ function App() {
             className="modal__close close-modal"
             title="Close"
           >
-            <img src="img/x.svg" alt="" clasName="close-icon" />
+            <MdClear />
+            {/* <img src="img/x.svg" alt="" clasName="close-icon" /> */}
           </div>
 
           <h1 className="modal__title"> Good Job! 🎉</h1>

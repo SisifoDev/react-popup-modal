@@ -130,7 +130,7 @@ img {
   display: inline-flex;
   background-color: white;
   border-radius: 0.25rem;
-  color: #fff;
+  color: var(--first-color);
   font-size: 1.5rem;
   position: absolute;
   top: 2rem;
@@ -138,6 +138,10 @@ img {
   cursor: pointer;
 }
 
+.modal__close:hover {
+  background-color: var(--text-color);
+  color: #fff;
+}
 .modal__title {
   font-size: var(--big-font-size);
   color: var(--title-color);
