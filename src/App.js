@@ -27,7 +27,7 @@ function App() {
             <img src="img/x.svg" alt="" clasName="close-icon" />
           </div>
 
-          <h1 className="modal__title">🎈 Good Job! 🎉</h1>
+          <h1 className="modal__title"> Good Job! 🎉</h1>
           <p className="modal__description">Click the button to close</p>
           <img src="img/trophy.png" alt="" class="modal__img" />
 
